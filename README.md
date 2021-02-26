@@ -7,4 +7,4 @@ Daftar Isi :
 
 2. Git Sintaks (Perintah) yang Sering Digunakan
 
-3. Next
+3. Next.
