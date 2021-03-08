@@ -37,28 +37,31 @@ Langkahnya sebagai berikut:
 
 Langkah-langkahnya sebagai berikut:
 
-1.Jalankan `Git Bash`, kemudian ketik perintah:
-```commandline
-ssh-keygen -t rsa -b 4096 -C "akun_emailmu_di_github@contoh.com"
-```
-2.Jika muncul pertanyaan :
-```commandline
-Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Tekan enter saja]
-```
-3.Masukkan passphrase (password) akun [github](github.com) :
-```
-Enter passphrase (empty for no passphrase): [Ketik password]
-```
-4.Ketik perintah ini untuk menuju pada folder berisi ssh-key
-```
-cd ~/.ssh
-pwd
-ls -all
-```
-Anda akan melihat beberapa file
+1. Jalankan `Git Bash`, kemudian ketik perintah:
+
+    ```commandline
+    ssh-keygen -t rsa -b 4096 -C "akun_emailmu_di_github@contoh.com"
+    ```
+2. Jika muncul pertanyaan :
+    ```commandline
+    Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Tekan enter saja]
+    ```
+3. Masukkan passphrase (password) akun [github](github.com) :
+
+    ```commandline
+    Enter passphrase (empty for no passphrase): [Ketik password]
+    ```
+4. Ketik perintah ini untuk menuju pada folder berisi ssh-key
+    ```
+    cd ~/.ssh
+    pwd
+    ls -all
+    ```
+    Anda akan melihat beberapa file
+
     ![Hasil langkah 4](image/home_rsa_file.PNG)
 
-5.Lokasi file tersebut biasanya di `C:\Users\Nama_Useer\.ssh`. Buka file `id_rsa.pub` menggunakan editor, misal `notepad++` atau editor lainnya, dan copy seluruh isi file tersebut. Isi file tersebut akan di `paste` pada setting **ssh-key** di [github](github.com)
+5. Lokasi file tersebut biasanya di `C:\Users\Nama_Useer\.ssh`. Buka file `id_rsa.pub` menggunakan editor, misal `notepad++` atau editor lainnya, dan copy seluruh isi file tersebut. Isi file tersebut akan di `paste` pada setting **ssh-key** di [github](github.com)
 
 
 ### B. Menambahkan ssh-key ke [github](github.com)
