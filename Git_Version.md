@@ -116,11 +116,14 @@ Langkahnya sebagai berikut:
 
 10. Agar tidak ditanyakan berulang password, maka jalankan perintah pada git bash
 
-   ``` 
-   eval 'ssh-agent' 
-   
-   ssh-add ~/.ssh/id_rsa 
-   ```
+    ``` 
+    eval 'ssh-agent' 
+       
+    ssh-add ~/.ssh/id_rsa 
+    ```
+
+11. Selesai
 
 
-### TODO
+
+### TODO: Jika ada 2 akun github yang berbeda pada satu komputer 
